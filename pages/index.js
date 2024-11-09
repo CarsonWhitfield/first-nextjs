@@ -13,6 +13,11 @@ export default function Home() {
           Carson Whitfield Welcomes <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <Counter />
+
+        {/* Link to Fake Store page */}
+      <Link href="/fakestore">
+        <a>View Fake Store Products</a>
+      </Link>
     </div>
   );
 }
