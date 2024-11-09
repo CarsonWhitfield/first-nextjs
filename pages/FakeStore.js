@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import ProductsTable from '../components/ProductsTable';
+//import ProductTable from './ProductTable';
 
 export default function FakeStore() {
     return (
@@ -10,7 +10,7 @@ export default function FakeStore() {
         </Head>
         
         <h1>Fake Store Products</h1>
-        <ProductsTable />
+        <ProductTable />
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import Counter from './counter';
 
@@ -15,9 +16,9 @@ export default function Home() {
         <Counter />
 
         {/* Link to Fake Store page */}
-      <Link href="/fakestore">
-        <a>View Fake Store Products</a>
-      </Link>
+        <Link href="/FakeStore" legacyBehavior>
+       <a>View Fake Store Products</a>
+       </Link>
     </div>
   );
 }
