@@ -1,5 +1,5 @@
 import Head from 'next/head';
-//import ProductTable from './ProductTable';
+import ProductTable from './ProductTable';
 
 export default function FakeStore() {
     return (

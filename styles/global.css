@@ -20,8 +20,16 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #ff4081;
+  text-decoration: underline;
 }
 
+a:active {
+  color: #b0bec5;
+}
 * {
   box-sizing: border-box;
 }
